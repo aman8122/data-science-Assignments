@@ -10,3 +10,18 @@ Python
 Google Colab / Jupyter Notebook
 Pandas & Scipy (Stats)
 matplotlib
+
+week 2:Topics Covered
+Data Preprocessing ( outlier detection,removal techniques)
+Exploratory Data Analysis (EDA)
+Feature Engineering(robust sacling,train split test)
+Regression Modeling
+Time Series Forecasting (ARIMA model)
+Technologies Used
+Python
+NumPy
+Pandas
+Matplotlib
+Seaborn
+Scikit-learn (sklearn)
+ARIMA (Statsmodels)
