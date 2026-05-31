@@ -17,6 +17,8 @@ Exploratory Data Analysis (EDA)
 Feature Engineering(robust sacling,train split test)
 Regression Modeling
 Time Series Forecasting (ARIMA model)
+
+
 Technologies Used
 Python
 NumPy
