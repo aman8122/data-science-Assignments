@@ -27,3 +27,4 @@ Matplotlib
 Seaborn
 Scikit-learn (sklearn)
 ARIMA (Statsmodels)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aman8122/data-science-Assignments/blob/main/NOTEBOOK_NAME.ipynb)
