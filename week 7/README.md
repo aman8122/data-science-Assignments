@@ -45,3 +45,64 @@ This hybrid architecture significantly improves retrieval accuracy and reduces h
 ---
 
 ## 🧠 Architecture Flow
+PDF Document
+↓
+Text Loader (PyPDFLoader)
+↓
+Chunking (RecursiveCharacterTextSplitter)
+↓
+────────────────────────────
+│ Hybrid Indexing Layer │
+│ - FAISS (Vector DB) │
+│ - BM25 (Keyword Search) │
+────────────────────────────
+↓
+Candidate Retrieval
+↓
+Cross-Encoder Re-ranking
+↓
+Top-K Context Selection
+↓
+LLM (Gemini 2.5 Flash)
+↓
+Final Answer
+
+---
+
+## 📦 Tech Stack
+
+- Python 🐍
+- LangChain 🦜
+- FAISS (Facebook AI Similarity Search)
+- BM25 (Rank-BM25)
+- Sentence Transformers
+- Cross-Encoder (`ms-marco-MiniLM-L-6-v2`)
+- Google Gemini API
+- NumPy, Pickle, Logging
+
+---
+
+## 📁 Project Structure
+week 7/
+│
+├── notebook.ipynb
+├── Comprehensive Study on Artificial Intelligence.pdf
+├── requirements.txt
+├── .gitignore
+│
+├── my_secure_rag_index/
+│ ├── faiss index
+│ ├── bm25.pkl
+│ └── chunks.pkl
+│
+└── README.md
+
+---
+
+## 🚀 How to Run
+
+### 1️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+2️⃣ Set environment variables
+
