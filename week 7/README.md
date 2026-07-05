@@ -104,5 +104,8 @@ week 7/
 ### 1️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
+
 2️⃣ Set environment variables
+Create a .env file:
+GEMINI_API_KEY=your_api_key_here
 
